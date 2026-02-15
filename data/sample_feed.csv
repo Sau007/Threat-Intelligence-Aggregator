@@ -1,0 +1,9 @@
+value,type,category,severity,description
+192.168.1.100,ip,malware,high,Malicious IP hosting C2 server
+malware-example.com,domain,malware,high,Known malware distribution domain
+a1b2c3d4e5f678901234567890123456,hash,malware,critical,Trojan payload MD5 hash
+http://phishing-site.net/login,url,phishing,high,Banking phishing page
+phishing@phishing-site.net,email,phishing,medium,Phishing campaign email
+203.0.113.45,ip,botnet,high,Botnet command and control
+suspicious-domain.info,domain,suspicious,medium,Suspicious domain pattern
+0987654321fedcba0987654321fedcba,hash,ransomware,critical,Ransomware sample hash

@@ -1,0 +1,32 @@
+# Sample Threat Intelligence Feed
+# Format: Plain text (one IOC per line)
+# Source: Sample feed for testing
+
+# Malicious IP Addresses
+192.168.1.100
+10.0.0.50
+172.16.0.25
+203.0.113.45
+198.51.100.22
+
+# Malicious Domains
+malware-example.com
+phishing-site.net
+botnet-c2.org
+suspicious-domain.info
+malicious-actor.biz
+
+# File Hashes (MD5)
+a1b2c3d4e5f678901234567890123456
+0987654321fedcba0987654321fedcba
+abcdef1234567890abcdef1234567890
+
+# URLs
+http://malware-example.com/download/payload.exe
+https://phishing-site.net/login/bank
+http://suspicious-domain.info/click/track
+
+# Email Addresses
+malware@malware-example.com
+phishing@phishing-site.net
+suspicious@suspicious-domain.info
