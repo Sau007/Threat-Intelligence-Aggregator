@@ -1,0 +1,40 @@
+{
+  "project_name": "Threat Intelligence Aggregator",
+  "version": "1.0.0",
+  "internship": {
+    "provider": "Unified Mentor",
+    "duration": "3 months",
+    "project_duration": "2 months"
+  },
+  "feeds": [
+    "data/sample_feed.txt",
+    "data/sample_feed.csv",
+    "data/sample_feed.json"
+  ],
+  "output_dir": "output",
+  "min_confidence": 50,
+  "min_priority": "Low",
+  "log_level": "INFO",
+  "rate_limit": {
+    "requests_per_second": 4,
+    "burst": 10
+  },
+  "parsing": {
+    "exclude_private_ips": true,
+    "exclude_localhost": true,
+    "min_hash_length": 32
+  },
+  "correlation": {
+    "priority_thresholds": {
+      "critical": 5,
+      "high": 3,
+      "medium": 2,
+      "low": 1
+    }
+  },
+  "blocklist_formats": [
+    "txt",
+    "csv",
+    "json"
+  ]
+}

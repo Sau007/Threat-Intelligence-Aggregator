@@ -1,0 +1,20 @@
+# Threat Intelligence Aggregator
+# Python Dependencies
+
+# Core dependencies
+requests>=2.28.0          # HTTP library for fetching feeds from URLs
+
+# Optional dependencies for enhanced functionality
+# Uncomment if needed:
+# stix2>=3.0.0            # STIX 2.0 parsing
+# taxii2-client>=2.3.0    # TAXII 2.0 client
+# pymisp>=2.4.0           # MISP integration
+
+# Development dependencies (for testing)
+# pytest>=7.0.0           # Testing framework
+# pytest-cov>=4.0.0       # Coverage reporting
+# black>=22.0.0           # Code formatting
+# flake8>=5.0.0           # Linting
+
+# Documentation dependencies
+# sphinx>=5.0.0           # Documentation generation
